@@ -1,0 +1,34 @@
+body {
+  animation: 2s linear infinite alternate background;
+}
+
+@keyframes background {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: yellow;
+  }
+}
+
+h1 {
+  font-family: Crafty Girls;
+}
+
+#me {
+  height: 400px;
+  position: relative;
+  top: 40px;
+  animation: 2s linear infinite alternate jiggy;
+}
+
+@keyframes jiggy {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}
